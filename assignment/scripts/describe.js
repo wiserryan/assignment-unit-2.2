@@ -7,10 +7,7 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
-// Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// //EXAMPLE.  
 
 //CODE
 /*
@@ -26,10 +23,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it equal to Dane.
+// Then we check IF (expression of truthy) name equals Mary, we (perform some logic)
+// by console.log "Hi Mary".
+// else (perform some logic) name not equal to Mary 
+// we console.log "How do you do?"
 
 //CODE
 /*
@@ -45,7 +43,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
+// we define variable secret.
+// we define variable code equal to 123.
+// we say if (truthy expression) code equals 123
+// we say (perform some logic) secret equals word super
+// we say (perform some logic) code equals code x 2, and we established code equals 123 earlier.
+// now we check if (truthy expression) 
+// code is greater than 250 than (perform some logic) secret is equal to super.
+// we console.log secret, which will return super, not duper because 246 ois not greater than 250.
 // 
 // 
 //
@@ -70,10 +75,17 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we define variable isStudent as true.
+// we make variable age equal to 34.
+// we make variable zip equal to 55407.
+// than we establish a conditional (truthy) statement isStudent equal to 
+// and type and zip is greater than 80000.
+// than we console.log "You're a student on the west coast".
+//(perform some logic) isStudent equal to false or age is less than 30.
+// than we console.log 'What are your hobbies?'.
+//(perform some logic) isStudent equal to True, than we console.log 'Welcome to Prime!'.
+// else we console.log 'How about the weather?'.
+// our team decided the 3rd - Welcome to Prime would be returned due to parameters of let statements.
 
 //CODE
 /*
@@ -129,6 +141,7 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//let colorOne does not equal Blue and no colorTwo = Purple
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
@@ -143,6 +156,9 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// Our team decided this code would work by replacing the OR(||) 
+// with and would make this work correctly.
+
 /*
 let temp = 40;
 const time = 4;
@@ -156,6 +172,9 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// I'm unsure what the fix would be for this one.
+// It seems right to me looking at it.
+// Maybe us e adifferent variable other than const? as this number will not change.
 /*
 let age = 21;
 const minAge = 21;
